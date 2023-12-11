@@ -21,8 +21,14 @@ Install my-project with npm
     
 ## Features
 
-
 - Responsive design
 - Validation 
 - Error Handling
+
+## 🚀 About Me
+I'm a full stack developer...
+
+## Feedback
+
+If you have any feedback, please reach out to us at yogeshvanzara98@gmail.com
 
