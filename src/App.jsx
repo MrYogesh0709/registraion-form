@@ -1,6 +1,7 @@
 import { useForm } from "react-hook-form";
 import { string, object } from "yup";
 import { yupResolver } from "@hookform/resolvers/yup";
+import github from "./assets/github.svg";
 
 function App() {
   const passwordRules = /^(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{5,}$/;
@@ -85,6 +86,13 @@ function App() {
           Submit
         </button>
       </form>
+      <a
+        href="https://github.com/MrYogesh0709/registraion-form"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img src={github} alt="github" className="github" />
+      </a>
     </div>
   );
 }
